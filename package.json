@@ -1,0 +1,68 @@
+{
+  "name": "turbo-utilities",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Turbo Utilities is a powerful utility library that offers a collection of high-performance functions for array and object manipulation in JavaScript. It consolidates a variety of commonly used methods, providing an all-in-one solution for developers seeking efficiency and simplicity in their code.",
+  "author": "Ravi Teja Ladi",
+  "license": "MIT",
+  "repository": "https://github.com/RaviTeja884781/turbo-utilities",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">= 16.8.0 < 2",
+    "react-dom": ">= 16.8.0 < 2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "rollup": "^1.29.0",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "TurboUtilities",
+    "arrays",
+    "objects",
+    "utility",
+    "functions",
+    "JavaScript",
+    "high-performance",
+    "clone",
+    "concat",
+    "every",
+    "fill",
+    "filter",
+    "forEach",
+    "indexOf",
+    "lastIndexOf",
+    "map",
+    "pluck",
+    "reduce",
+    "reduceRight",
+    "some",
+    "apply",
+    "bind",
+    "partial",
+    "try",
+    "assign",
+    "keys",
+    "values"
+  ]
+}

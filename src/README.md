@@ -25,7 +25,7 @@ npm install turbo-utilities
 **Q2: How do I use Turbo Utilities in my project?**
 **A2:** After installing, you can import and use Turbo Utilities like this:
 ```javascript
-import Turbo from 'turbo-utilities';
+import Turbo from 'Turbo Utilities';
 
 // Example usage
 Turbo.turboCloneArray([...]);
